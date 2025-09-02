@@ -55,6 +55,9 @@ public class SellInventoryListener implements Listener {
             // Clear the inventory after selling
             inventory.clear();
 
+            // Give the player the money
+            plugin.getEconomy().depositPlayer(player, totalPrice);
+
             // Send the message to the player
             String messageFormat = plugin.getConfigManager().getConfig().getString("sell-message", "&a+%price% €");
             boolean formatNumbers = plugin.getConfigManager().getConfig().getBoolean("format-numbers", true);
