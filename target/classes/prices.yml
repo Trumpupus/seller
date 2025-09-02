@@ -1,5 +1,5 @@
 # Prices for items.
-# Item names should be in lowercase and without spaces.
+# Item names should be the Bukkit Material name in lowercase.
 # Example: diamond_block, iron_ingot, etc.
 
 diamond: 100

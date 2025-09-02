@@ -70,7 +70,7 @@ public class SellInventoryListener implements Listener {
     }
 
     private double getPrice(ItemStack item) {
-        String itemName = item.getType().name().toLowerCase().replace("_", "");
+        String itemName = item.getType().name().toLowerCase();
         return plugin.getConfigManager().getPricesConfig().getDouble(itemName, 0.0);
     }
 
