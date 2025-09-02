@@ -1,0 +1,6 @@
+de/user/sellplugin/SellGUI.class
+de/user/sellplugin/SellPlugin.class
+de/user/sellplugin/SellReloadCommand.class
+de/user/sellplugin/SellCommand.class
+de/user/sellplugin/SellInventoryListener.class
+de/user/sellplugin/ConfigManager.class

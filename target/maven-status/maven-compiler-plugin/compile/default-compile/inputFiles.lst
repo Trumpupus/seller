@@ -1,0 +1,6 @@
+/app/src/main/java/de/user/sellplugin/SellGUI.java
+/app/src/main/java/de/user/sellplugin/SellInventoryListener.java
+/app/src/main/java/de/user/sellplugin/SellPlugin.java
+/app/src/main/java/de/user/sellplugin/ConfigManager.java
+/app/src/main/java/de/user/sellplugin/SellReloadCommand.java
+/app/src/main/java/de/user/sellplugin/SellCommand.java

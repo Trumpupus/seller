@@ -1,0 +1,13 @@
+# Prices for items.
+# Item names should be in lowercase and without spaces.
+# Example: diamond_block, iron_ingot, etc.
+
+diamond: 100
+diamond_block: 900
+iron_ingot: 10
+gold_ingot: 20
+emerald: 150
+netherite_ingot: 1000
+dirt: 0.01
+stone: 0.1
+cobblestone: 0.05

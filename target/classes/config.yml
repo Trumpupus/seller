@@ -1,0 +1,10 @@
+# Configuration for the SellPlugin
+
+# Message to be displayed after selling items.
+# Placeholders:
+# %price% - the total price of the sold items
+sell-message: "&a+%price% €"
+
+# Number formatting
+# Set to true to format numbers like 1500 to 1.5k
+format-numbers: true

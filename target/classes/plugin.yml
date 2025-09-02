@@ -1,0 +1,16 @@
+name: SellPlugin
+version: 1.0
+main: de.user.sellplugin.SellPlugin
+api-version: 1.21
+author: Jules
+description: A plugin to sell items via a GUI.
+
+commands:
+  sell:
+    description: Opens the sell GUI.
+    usage: /sell
+    aliases: [verkaufen]
+  sellreload:
+    description: Reloads the plugin's configuration.
+    usage: /sellreload
+    permission: sellplugin.reload
